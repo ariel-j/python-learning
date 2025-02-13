@@ -209,5 +209,3 @@ class ResourcePool:
         self.resources.append(resource)
         self.lock.unlock(pid)
 ```
-
-Remember that this algorithm is primarily educational - in production systems, you'd typically use your language's built-in synchronization primitives. However, understanding Lamport's Bakery Algorithm provides valuable insights into concurrent programming concepts.
